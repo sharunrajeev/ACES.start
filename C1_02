@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+	char name[20];
+	int a[our 5];
+	printf("Enter your name ");
+	scanf("\n %c", &name);
+	printf("Enter your Marks in the 5 subjects ou of 100");
+	for(int i=0;i<5;i++)
+	{	scanf("\n %d",&a[i]);
+		sum+=a[i];
+	}
+	percentage=sum/5;
+	printf("Sum =%d","\nPercentage =%d",&sum,&perentage);
+	return 0;
+}
