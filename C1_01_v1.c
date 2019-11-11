@@ -6,7 +6,7 @@ int rectangle()
 	printf("Enter the Length and Breadth of the Rectangle\n");
 	scanf("%d %d",&a,&b);
 	int area=a*b;
-	return(area);
+	return area;
 }
 
 float triangle()
@@ -16,7 +16,7 @@ float triangle()
 	scanf("%d %d",&a,&b);
 	float area;
 	area=(a*b)/2;
-	return(area);
+	return area;
 }
 
 int main()
@@ -26,12 +26,10 @@ int main()
 	scanf("%c",&choice);
 	switch(choice)
 	{
-		case 'r': rectangle();
+		case 'r': printf("Area= %d \n",rectangle());
 			 break;
-		case 't': triangle();
+		case 't': printf("Area= %f \n",triangle());
 			 break;
 		default:printf("Wrong choice");
 	}
-	printf("Press any key to Exit\n");
-	getchar();
 }
